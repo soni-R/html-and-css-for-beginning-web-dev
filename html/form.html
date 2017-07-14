@@ -37,8 +37,8 @@
                     <textarea name="message"></textarea><br>
                     
                     <!--new html5 inputs-->
-                    <label>Email</label><input type="email" name="email"><br>
-                    <label>Phone Number</label><input type="tel" name="phone"><br>
+                    <label>Email</label><input type="email" name="email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="please enter in a valid email address example@example.com"><br>
+                    <label for="phone">Phone Number</label><input type="tel" name="phone" id="phone" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" title="please enter phone number in this format #### ### ###" ><br>
                     <label>Date</label><input type="date" name="date" min="2017-01-01"><br>
                     <label>Scale</label><input type="range" name="scale" min="1" max="10"><br>
                     <label>Select number</label><input type="number" name="number" min="1" max="5"><br>

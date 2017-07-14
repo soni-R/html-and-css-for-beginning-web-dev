@@ -9,7 +9,7 @@
                 <fieldset>
                     <legend>This is a form</legend>
                     <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="enter username"><br>
+                    <input type="text" id="username" name="username" placeholder="enter username" autofocus required><br>
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="enter password"><br>
                     
@@ -17,14 +17,14 @@
                     <label for="on">On</label>
                     <input type="radio" id="on" name="onOff" value="on">
                     <label for="off">Off</label>
-                    <input type="radio" id="off" name="onOff" value="off"><br>
+                    <input type="radio" id="off" name="onOff" value="off" checked><br>
                     
                     <!--checkboxes-->
                     
                     <label for="twitter">Twitter</label>
-                    <input type="checkbox" id="twitter" name="twitter" value="yes" >
+                    <input type="checkbox" id="twitter" name="twitter" value="yes"  checked>
                     <label for="facebook">Facebook</label>
-                    <input type="checkbox" id="facebook" name="facebook" value="yes"><br>
+                    <input type="checkbox" id="facebook" name="facebook" value="yes" checked><br>
                     
                     <!--Dropdown -->
                     <select name="country">
@@ -42,7 +42,7 @@
                     <label>Date</label><input type="date" name="date" min="2017-01-01"><br>
                     <label>Scale</label><input type="range" name="scale" min="1" max="10"><br>
                     <label>Select number</label><input type="number" name="number" min="1" max="5"><br>
-                    
+                
                     
                     <input type="reset" value="Clear the form">
                     <input type="submit" value="Submit the info">

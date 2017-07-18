@@ -1,17 +1,16 @@
 
-p.article{
-    color:#5dc17e;
+a:visited{
+    color:green;
+}
+a:hover{
+    text-decoration: none;
 }
 
-a[href="http://www.google.com"]{
-    color: #963d5c;
+p:hover{
+    font-size: 120%;
 }
 
-input[type="text"]{
-    color:#167a04;
-}
-
-img[alt~="Mark"]{
-    border:1px solid #000;
+input[type="text"]:focus {
+    background: #aaa;
 }
 

@@ -1,6 +1,6 @@
-/*grouping selectors - To group selectors, separate each selector with a comma. If we have elements with the same style, It will be better to group the selectors, to minimize the code.*/
-p, a, .red{   
-    color:red;
+/*Descendant selector - matches all elements that are descendants of a specified element.*/
+.article h1{
+    color:#5dc17e;
 }
 
 

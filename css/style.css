@@ -1,5 +1,5 @@
-/*Descendant selector - matches all elements that are descendants of a specified element.*/
-.article h1{
+/*The child selector selects all elements that are the immediate children of a specified element.*/
+.article > a{
     color:#5dc17e;
 }
 

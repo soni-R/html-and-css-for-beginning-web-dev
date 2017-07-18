@@ -1,7 +1,17 @@
-/*The child selector selects all elements that are the immediate children of a specified element.*/
-.article > a{
+
+p.article{
     color:#5dc17e;
 }
 
+a[href="http://www.google.com"]{
+    color: #963d5c;
+}
 
+input[type="text"]{
+    color:#167a04;
+}
+
+img[alt~="Mark"]{
+    border:1px solid #000;
+}
 

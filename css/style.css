@@ -1,16 +1,14 @@
 
-a:visited{
-    color:green;
-}
-a:hover{
+a:link, a:visited{
+    color: #841371;
     text-decoration: none;
 }
 
-p:hover{
-    font-size: 120%;
+a:hover{
+    color:green;
+    font-weight: bold;
 }
 
-input[type="text"]:focus {
-    background: #aaa;
+a:active{
+    color: blue;
 }
-

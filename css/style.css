@@ -1,20 +1,22 @@
+body{
+    height: 3000px;
+}
+
 #container{
-    width:300px;
+    position: fixed;    /*Fixed positioning - fix the position of an element to a particular spot on the page,
+                        doesn't change its position even while  scrolling.*/
+    margin: 30px;
+    width: 300px;
     height:300px;
     background: #777;
 }
 
-.block-link{
-    display:block;
-    height: 30px;
-    width: 150px;
+#inner{
+    position: absolute;     /*When an element is set to position: absolute, it's then
+                                positioned in relation to  its  parent element*/
+    top: 10px;  
+    left: 10px;
+    width: 100px;
+    height: 100px;
     background: #999;
-}
-
-#main{
-    width: 200px;
-    min-height:100px;
-    max-height: 200px;
-    background: #aaebef;
-    overflow: scroll; /*other values - visible|hidden|scroll|auto;*/
 }

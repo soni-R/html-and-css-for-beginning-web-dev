@@ -1,13 +1,12 @@
-.link{
-    display: block;  /*display: block starts in a new line and takes complete width of a page*/
+h1{
+    margin-top: 0;
+    border-bottom: 1px solid #000;
 }
 
-.button{
-    background: #ddd;
-    padding: 5px;
-    display: inline-block;  /*inline-block allows the element to be inline and also it respect width, height, padding*/
-    min-width: 150px;
+.text{
+    background: #000;
+    color: #fff;
+    height: 80px;
+    width: 180px;
+    padding: 20px 5px;
 }
-
-/*visibility : hidden property makes the element or text invisible, but it still shows the markup there, it still exists on the page, where as display:none property completely removes the element from the page*/
-

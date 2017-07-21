@@ -1,72 +1,11 @@
-.sidebar{
-    background: slategrey;
-    width:200px;
-    float:left;
+h1{
+    text-transform: uppercase;
 }
 
-.content{
-    background: darkslategrey;
-    width: 600px;
-    float: left;
+h3{
+    text-transform: capitalize;
 }
 
-.first{
-    background: #ccc;    
-    float: left;
-    width:50%;
+p{
+    text-transform: lowercase;
 }
-
-.second{
-    background: #bababa;
-    float: right;
-    width: 50%;
-}
-
-.container{
-    background: #ddd;
-}
-
-.box{
-    width: 200px;
-    height:200px;
-    background: red;
-}
-
-.float-left{
-   float:left;
-}
-
-.float-right{
-    float:right;
-}
-
-.clearfix:before, .clearfix:after{
-    content:" ";
-    display: table;
-}
-
-.clearfix:after{
-    clear: both;
-}
-.clearfix{
-    *zoom:1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

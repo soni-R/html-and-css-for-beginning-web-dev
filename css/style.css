@@ -1,7 +1,11 @@
-.column{
-    width: 170px;
-    padding: 5px;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    text-align: left; /*other values for text align - auto|left|right|center|justify*/
+article p{
+    width: 400px;
+    text-indent: 15px;
+}
+
+input[type="submit"]{
+    width:350px;
+    height: 50px;
+    background: url("../tick.png") no-repeat 50%; /*Adding background image to the submit button*/
+    text-indent: -500px;  /*moving text on submit button to left 500px, so that it is not visible on the button*/
 }

@@ -1,16 +1,72 @@
-body{
-    font-family: Arial,Verdana,sans-serif;
-    font-size: 1em;
+.sidebar{
+    background: slategrey;
+    width:200px;
+    float:left;
 }
 
-h1{
-    font-size: 1.6em;
+.content{
+    background: darkslategrey;
+    width: 600px;
+    float: left;
 }
 
-span{
-    font-size: 0.5em;
+.first{
+    background: #ccc;    
+    float: left;
+    width:50%;
 }
 
-.para{
-    font: 1em monospace,Verdana,sans-serif;  /*This is a short hand for font family and size*/
+.second{
+    background: #bababa;
+    float: right;
+    width: 50%;
 }
+
+.container{
+    background: #ddd;
+}
+
+.box{
+    width: 200px;
+    height:200px;
+    background: red;
+}
+
+.float-left{
+   float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+.clearfix:before, .clearfix:after{
+    content:" ";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,17 @@
-#container{
-    background: #aaa;
+.box{
+    position: absolute;
     width: 200px;
     height: 200px;
-    overflow-y: scroll; /*other values - visible, auto, scroll, hidden*/
+   
+}
+
+.box.light{
+    background-color: #ccc;
+    z-index: 9999;
+}
+
+.box.dark{
+    background-color: #aaa;
+    left: 100px;
+    z-index: 9998;
 }

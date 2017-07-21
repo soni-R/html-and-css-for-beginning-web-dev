@@ -1,10 +1,12 @@
-#box{
-    width: 200px;
-    height: 100px;
-    background: #ccc;
-    border: 1px solid #000;
-    padding: 10px;
-    box-sizing: border-box; /*box-sizing property allows us to include the border and padding with in the specified
-                               width and height*/
+#container{
+    color: #777;
 }
 
+.para{
+    color: rgb(0, 225, 225);
+    background: slategrey;
+}
+
+span{
+    color: rgba(120, 0, 120, 0.5);
+}

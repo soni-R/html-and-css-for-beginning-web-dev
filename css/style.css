@@ -1,12 +1,16 @@
-#container{
-    color: #777;
+body{
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 1em;
 }
 
-.para{
-    color: rgb(0, 225, 225);
-    background: slategrey;
+h1{
+    font-size: 1.6em;
 }
 
 span{
-    color: rgba(120, 0, 120, 0.5);
+    font-size: 0.5em;
+}
+
+.para{
+    font: 1em monospace,Verdana,sans-serif;  /*This is a short hand for font family and size*/
 }

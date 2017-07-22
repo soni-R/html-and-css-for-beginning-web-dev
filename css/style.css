@@ -1,7 +1,18 @@
 #container{
-   width: 300px;
-   height:300px;
-   border: 1px solid #000;
-   background: url('../images/bubble.png') no-repeat 50% 50%;
-   background-size: contain; /*other value cover*/
+    background: #eee;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000; /*some types of borders solid|dashed|dotted|inset|*/
+    border-top-color: green;
+    border-bottom-width: 10px;
+    box-sizing: border-box;
 }
+
+#borderimg{
+    width: 200px;
+    height:150px;
+    background: #5db76f;
+     border: 10px solid transparent;
+    border-image: url(../images/border.png) 30 stretch; /*other values stretch repeat round*/
+}
+

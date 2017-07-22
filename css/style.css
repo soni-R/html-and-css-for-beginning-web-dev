@@ -1,16 +1,10 @@
-.message{
-    width:200px;
-    height: 50px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding:15px 30px;
-    box-sizing: border-box;
-    /*background-color: #ccc;
-    background-image: url('../doubleticks.png');
+#container{
+    width: 650px;
+    height: 350px;
+    /*background-image:  url('../images/tick.png'), url('../images/bubble.png');
     background-repeat: no-repeat;
-    background-position: left center;*/
+    background-position: 50% 50%, 0;*/
     
-    /*This is short hand property*/
-    background: url('../images/doubleticks.png') no-repeat 1px;
-    
+    /*short hand property for multiple background images*/
+    background:  url('../images/tick.png') no-repeat 50% 50%, url('../images/bubble.png') no-repeat;
 }

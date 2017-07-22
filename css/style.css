@@ -1,10 +1,7 @@
 #container{
-    width: 650px;
-    height: 350px;
-    /*background-image:  url('../images/tick.png'), url('../images/bubble.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%, 0;*/
-    
-    /*short hand property for multiple background images*/
-    background:  url('../images/tick.png') no-repeat 50% 50%, url('../images/bubble.png') no-repeat;
+   width: 300px;
+   height:300px;
+   border: 1px solid #000;
+   background: url('../images/bubble.png') no-repeat 50% 50%;
+   background-size: contain; /*other value cover*/
 }
